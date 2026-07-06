@@ -6,9 +6,12 @@
 /out-tsc
 /bazel-out
 
-# Environments
-/src/environments/environment.ts
-/src/environments/environment.development.ts
+# Environment variables
+.env
+.env.*
+!.env.example
+/src/environments/environment.*
+!/src/environments/environment.example.ts
 
 # Node
 /node_modules
